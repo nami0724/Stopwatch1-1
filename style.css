@@ -1,0 +1,101 @@
+body {
+  width: 100%;
+  background-color: white;
+  font-size: large;
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+
+h3{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#contents{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+#time{
+ font-size: 100px;
+ margin: 1px;
+}
+
+#time span{
+  color: black;
+  font-size: 100px;
+  text-align: center;
+  padding: 0px;
+  width: 100%;
+  letter-spacing: 0em;
+  margin: 0px;
+}
+
+
+#buttons{
+  font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  font-size: 100px;
+  display: inline-block;
+  width: 50%;
+}
+
+
+#start{
+  color: black;
+  display: inline-block;
+  width:200px;
+  text-align: center;
+  background-color: #c0c0c0;
+  border: 1px solid #000;
+  padding:20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#start:disabled{
+  cursor: default;
+  background-color: #EEEEEE;
+  color: #444444;
+}
+
+#stop{
+  color: black;
+  display: inline-block;
+  width:200px;
+  text-align: center;
+  background-color: #c0c0c0;
+  border: 1px solid #000;
+  padding:20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#stop:disabled{
+  cursor: default;
+  background-color: #EEEEEE;
+  color: #444444;
+}
+#reset{
+  color: black;
+  display: inline-block;
+  width:200px;
+  text-align: center;
+  background-color: #c0c0c0;
+  border: 1px solid #000;
+  padding:20px;
+  border-radius: 10px;
+  font-size:20px;
+  font-weight: bold;
+}
+#reset:disabled{
+  cursor: default;
+  background-color: #EEEEEE;
+  color: #444444;
+}
